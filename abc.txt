@@ -1,0 +1,38 @@
+## How to Connect GitHub to VS Code
+
+1. **Install Git**
+    - Download and install Git from https://git-scm.com/
+
+2. **Configure Git**
+    - Open terminal/command prompt
+    - Run: git config --global user.name "Your Name"
+    - Run: git config --global user.email "your.email@example.com"
+
+3. **Install GitHub Extension in VS Code**
+    - Open VS Code
+    - Go to Extensions (Ctrl+Shift+X)
+    - Search "GitHub Pull Requests and Issues"
+    - Click Install
+
+4. **Authenticate GitHub Account**
+    - Open Command Palette (Ctrl+Shift+P)
+    - Type "GitHub: Sign in"
+    - Follow the browser authentication flow
+
+5. **Clone a Repository**
+    - Open Command Palette
+    - Type "Git: Clone"
+    - Paste your GitHub repository URL
+    - Select folder location
+
+6. **Create a New Repository**
+    - Open your project folder in VS Code
+    - Open terminal (Ctrl+`)
+    - Run: git init
+    - Run: git add .
+    - Run: git commit -m "Initial commit"
+    - Push to GitHub using Source Control panel
+
+7. **Using Source Control Panel**
+    - Click Source Control icon (Ctrl+Shift+G)
+    - Stage changes, write messages, commit, and push
