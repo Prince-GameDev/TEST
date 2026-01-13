@@ -36,3 +36,18 @@
 7. **Using Source Control Panel**
     - Click Source Control icon (Ctrl+Shift+G)
     - Stage changes, write messages, commit, and pushclea
+
+    8. **Push and Pull Changes**
+        - Use "Push" to upload commits to GitHub
+        - Use "Pull" to download latest changes from remote
+        - Resolve merge conflicts if they occur
+
+    9. **Create and Switch Branches**
+        - Run: git branch branch-name
+        - Run: git checkout branch-name
+        - Or use: git checkout -b branch-name (create and switch)
+
+    10. **Sync with Remote Repository**
+        - Regularly pull before pushing changes
+        - Keep local and remote repositories in sync
+        - Use "Sync" button in Source Control panel
