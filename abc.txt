@@ -35,4 +35,4 @@
 
 7. **Using Source Control Panel**
     - Click Source Control icon (Ctrl+Shift+G)
-    - Stage changes, write messages, commit, and push
+    - Stage changes, write messages, commit, and pushclea
